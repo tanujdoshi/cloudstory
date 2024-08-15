@@ -1,0 +1,20 @@
+/* Global.css */
+:root {
+    --primary-color: #3498db; /* Light Blue */
+    --secondary-color: #ff6347; /* Tomato */
+    --accent-color: #f5f5f5; /* Light Gray */
+    --text-color: #34495e; /* Dark Gray */
+  }
+  
+  body {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    color: var(--text-color);
+    background-color: var(--accent-color);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+  }
+  
+  /* Additional global styles */
+  

@@ -1,0 +1,40 @@
+/* HomePage.css */
+.cloud-story-title {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive; /* Playful font */
+  }
+  
+   .story-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .story-card-hovered {
+    transform: translateY(-10px); /* Lift the card 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); Shadow effect */
+   }
+  
+  .story-image {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .story-title {
+    font-size: 1.5rem;
+    color: var(--primary-color) !important;
+    text-align: center;
+  }
+  
+  .story-button {
+    background-color: #ff69b4; /* Pink color */
+    border: none;
+    width: 100%;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .story-button:hover {
+    background-color: #ff1493; /* Deep pink */
+  }
+  

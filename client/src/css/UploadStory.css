@@ -1,0 +1,41 @@
+/* UploadStory.css */
+.upload-story-title {
+    font-size: 2.5rem;
+    color: var(--primary-color); /* Tomato color */
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive; /* Playful font */
+    margin-bottom: 20px;
+  }
+  
+  .upload-story-form {
+    background: linear-gradient(145deg, #f0f8ff, #e6e6fa);
+    border-radius: 15px;
+  }
+  
+  .form-label-custom {
+    font-size: 1.2rem;
+    color: #2c3e50;
+  }
+  
+  .form-input-custom {
+    border: 2px solid #3498db; /* Light blue */
+    border-radius: 10px;
+  }
+  
+  .quill-editor {
+    border-radius: 10px;
+  }
+  
+  .btn-upload {
+    width: 100%;
+    background: var(--primary-color);;  /* Bright pink */
+    border: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-upload:hover {
+    background-color: #ff1493; /* Deep pink */
+  }
+  

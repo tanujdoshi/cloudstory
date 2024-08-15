@@ -1,0 +1,18 @@
+/* Navbar.css */
+.navbar-nav {
+    margin-right: auto; /* Ensures nav links are aligned to the left */
+  }
+  
+  .navbar-collapse {
+    display: flex;
+    align-items: center; /* Vertically center the items within the collapse */
+  }
+  
+  .ml-auto {
+    margin-left: auto; /* Pushes the dropdown to the right end */
+  }
+  
+  .searchable-dropdown {
+    margin-left: 1rem; /* Optional: space between other nav items and dropdown */
+  }
+  
